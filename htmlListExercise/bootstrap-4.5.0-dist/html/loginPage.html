@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Register</h1>
+        <form>
+            <div id="name">
+            <label>
+                FirstName:
+                <input name="FirstName" type="text" placeholder="FirstName" required>
+            </label>
+            <label>
+                LastName:
+                <input name="LastName" type="text" placeholder="LastName" required>
+            </label>
+    </div>
+    <div id="gender">
+            <label>
+                Male:
+                <input name="Gender" type="radio" required>
+            </label>
+            <label>
+                Female:
+                <input name="Gender" type="radio" required>
+            </label>
+            <label>
+                Other:
+                <input name="Gender" type="radio" required>
+            </label>
+    </div>
+    <div id="credentials">
+
+             <label for="Email">
+                 Email:
+                 <input name="Email" id="Email" type="Email" placeholder="Email" required>
+             </label>
+             <label for="Password">
+                 Password:
+                 <input pattern=".{5,10}" name="Password" id="Password" type="password" placeholder="password" required>
+             </label>
+    </div>
+    <div>
+        <label>
+            Birthday:
+            <select name="Month">
+                <option type="date">January</option>
+                <option type="date">February</option>
+            </select>
+            <select>
+                <option type="date">Monday</option>
+                <option type="date">Tuesday</option>
+            </select>
+            <select>
+                <option type="date">1989</option>
+                <option type="date">2919</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label for="agree">
+            I agree with the term of use:
+            <input id="agree" type="checkbox" required>
+        </label>
+    </div>
+    <div>
+        <input name="submit" type="submit" placeholder="Submit" required>
+    </div>
+        </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+#headerHome{
+    text-align: center;
+    color: black;
+}
+#headEmail{
+    text-align: center;
+    color: black;
+}
+
+#jobDescription{
+    text-align: center;
+    color: black;
+}
+
+#PersonalPhone{
+    text-align: center;
+    color: black;
+}
+
+#Home{
+    color: white;
+}
+#Projects{
+    color: white;
+}
+#CV{
+    color: white;
+}
+#Entertainment{
+    color: white;
+}
+
+#navbarDropdownMenuLink{
+    color: white;
+}
+
+#HomeHamButton{
+    color: white;
+}
+
+#homeNavBar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+#homeNavBar a:hover {
+    background: #abdde5;
+    color: black;
+}
+
+ #mainImage{
+     text-align: center;
+     max-width: 800px;
+     max-height: 800px;
+     position: absolute;
+     left: 150px;
+     top: -1000px;
+     z-index: 2;
+ }
+ #headerJumbotron{
+     margin-bottom: 0px;
+     background-color: #abdde5;
+     max-width: 100%;
+     height: auto;
+     width: auto\9;
+ }
+
+ #backImage{
+     max-width: 100%;
+     height: auto;
+     width: auto\9;
+ }
+
+ .purple{
+     background-color: purple;
+ }
+
